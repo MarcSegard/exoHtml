@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>Ma première page</title>
   </head>
   <body>
@@ -10,14 +11,77 @@
     <h2 style="color: red; font-style: italic">Windows is burck !!!</h2>
     <div>
       <p>
+        <!-- lien par ancre -->
+        <a href="#lien">liens</a>
+      </p>
+      <p class="p2">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam
         maiores ipsum? Nobis eius odit asperiores pariatur incidunt minus
         praesentium, consequatur sunt eum enim sed fuga nihil doloribus
         aspernatur tempora at ipsa, id quidem. Sed ad ex ea ullam veritatis.
       </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, placeat.
+      <p class="p2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic
+        mollitia optio suscipit illo? Reiciendis, eum dignissimos quas, aperiam
+        hic voluptate fuga labore tempora aut commodi placeat atque possimus sed
+        provident quaerat? Voluptate tempora dolor saepe? Tempora fuga nisi sint
+        aliquid voluptate numquam sed unde praesentium illum distinctio eaque.
       </p>
+      <p id="lien">
+        <!-- lien externe -->
+        <a href="https://www.apple.fr" target="_blank"
+          >Avant goût du bonheur !!!</a
+        >
+        <!-- lien interne -->
+        <a href="index.html"> On ne bouge pas !!! </a>
+        <!-- envoi mail -->
+        <a href="mailto:segardmarc@gmail.com">contacter moi</a>
+        <!-- lien vers fichier -->
+        <a href="monFichier.pdf">Download mon fichier</a>
+      </p>
+    </div>
+    <div id="image">
+      <!-- lien sur image -->
+      <a href="https://www.apple.fr" target="_blank">
+        <img
+          src="./assets/CultureMonde.png"
+          alt="Culture du monde"
+          width="300px"
+      /></a>
+      <img
+        src="./assets/CultureMonde.png"
+        alt="Culture du monde"
+        width="300px"
+      />
+    </div>
+    <div id="liste">
+      <ul>
+        <li>JAVA</li>
+        <li>C</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+    <div id="tableau">
+      <table>
+        <caption>
+          Mon beau tableau
+        </caption>
+        <thead>
+          <tr>
+            <td>Nom</td>
+            <td>Prénom</td>
+            <td>Adresse</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Marc</td>
+            <td>Ségard</td>
+            <td>Adresse</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </body>
 </html>
